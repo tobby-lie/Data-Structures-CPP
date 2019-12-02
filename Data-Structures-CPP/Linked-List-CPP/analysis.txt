@@ -1,0 +1,49 @@
+Tobby Lie
+CSCI 2421
+Homework 5
+September 22, 2017
+
+--------------------------
+Asymptotic Analysis
+for functions of LinkedList
+--------------------------
+
+---------------
+insertAtFront()
+---------------
+O(1)+O(1)+O(1)+O(1)+O(1)
+= O(5) = O(1)
+This function does not include any
+loops. Just simple lines of code that
+fall under constant order. Therefore
+this is constant order. 
+---------------
+insertAtBack()
+---------------
+O(n)+O(9)
+= O(n)
+This function includes a while loop which
+depends on the number of elements in the list.
+This means that it is an order of n meaning
+that the worst case is dependent on how many
+elements there are in the list. There other
+lines of code but all fall under constant order
+in Big O we are concerned about the highest
+order which in this case is O(n) after all
+constants are dropped.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

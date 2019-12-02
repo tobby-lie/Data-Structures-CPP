@@ -1,0 +1,70 @@
+Tobby Lie
+CSCI 2421
+Homework 4
+September 15, 2017
+
+--------------------------
+Asymptotic Analysis
+for functions of myVector
+class
+--------------------------
+
+----------
+Operator[]
+----------
+O(1)
+This is constant order as it is
+not dependent on any size. It is just
+returning a variable at one specific
+index.
+--------
+pop_back
+--------
+C+n+n
+= O(n)
+Although there is a conditional statement
+and there is more than one loop, this function
+still falls under n order, simply because there
+are no nested loops. The highest order of
+complexity is for the second for loop which
+still follows n order. For this reason we
+drop any constants and approximate all smaller
+values to the larger.
+---------
+push_back
+---------
+C+n+n
+= O(n)
+Similar to pop_back, this function utilizes a
+conditional statement and two for loops however
+the highest order of n is observed when performing
+an asymptotic analysis.
+------
+search
+------
+O(n)
+Since a linear search was utilized, it would make
+sense that the worst case for this search would be
+an order of n. Meaning it is linear with respect to
+the total number of elements in the given array
+if there were 8 elements total, then there would
+be 8 total searches possible in a worst case.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
